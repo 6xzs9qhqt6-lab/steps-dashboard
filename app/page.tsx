@@ -13,13 +13,12 @@ const fmtK = (n: number) => (n >= 1000 ? `${Math.round(n / 1000)}k` : `${n}`);
 const clamp = (n: number, min: number, max: number) => Math.max(min, Math.min(max, n));
 
 const phrases = [
-  "geh ma bitte",
-  "strampl anfoch",
-  "nix is fix, sauf net – geh!",
-  "hopp auf!",
-  "wia weit no?",
-  "geh spaziern, Brudi",
-  "mach a schritt, ned nur stories 😏",
+  "oba geh",
+  "beweg di a bissl",
+  "moch meter",
+  "füa wos host du bein",
+  "a schrittle geht imma",
+  "schritt is schritt",
 ];
 
 const initialWeek = [
